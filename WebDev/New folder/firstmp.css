@@ -1,0 +1,114 @@
+		
+        body {
+            background-image: url("sigiri.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+		ul {
+		  list-style-type: none;
+		  margin: 0;
+		  padding: 0;
+		  overflow: hidden;
+		  background-color: #333;
+		}
+
+		li {
+		  float: left;
+		}
+
+		li a {
+		  display: block;
+		  color: blue;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		}
+
+		li a:hover {
+		  background-color: #111;
+		}
+		
+
+		@keyframes example {
+		  from {left: 0px;}
+		  to {left: 970px; background-color: DarkGreen;}
+		}	
+		.title {
+		  font-family: "Montserrat";
+		  text-align: center;
+		  color: #FFF;
+		  display: flex;
+		  flex-direction: column;
+		  /* align-items: center; */
+		  justify-content: center;
+		  /* height: 100vh; */
+		  letter-spacing: 1px;
+	      background: blue;
+		  position: relative;
+		  animation-name: example;
+		  animation-duration: 3s;  
+		  animation-fill-mode: forwards;
+		  width: 500px;
+		  height: 280px;
+		}
+		.btn{
+		  display: inline-block;
+		  text-decoration: none;
+		  color: rgb(253, 253, 253);
+		  border: 1px solid #fff;
+		  padding: 12px 34px;
+		  font-size: 13px;
+		  background-color: black;
+		  position: relative;
+		  cursor: pointer;
+		}
+		.btn:hover {
+		  background-color: blue;
+		}
+
+		h2 {
+		  background-image: url(giphy.gif);
+		  background-size: cover;
+		  color: transparent;
+		  -moz-background-clip: text;
+		  -webkit-background-clip: text;
+		  text-transform: uppercase;
+		  font-size: 100px;
+		  line-height: .50;
+		  margin: 100px 0;
+		}
+		.main-footer {
+			background-color: rgba(0, 0, 0, .6);
+			color: white;
+			padding: .25em 0;
+			width:100%
+		}
+
+		.main-footer-container {
+			display: flex;
+			align-items: center;
+		}s
+
+		.main-footer-container ul {
+			flex-grow: 1;
+			text-align: end;
+		}
+
+		.footer-nav li {
+			padding: 0 .5em;
+		}
+
+		.footer-nav img {
+			width: 30px;
+			height: 30px;
+		}
+		img {
+			border-radius: 50%;
+			width:100px;
+			height:100px
+		}
+		.mydetails{
+			height:100px;
+		}
